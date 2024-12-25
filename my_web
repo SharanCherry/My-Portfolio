@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sharan Paloju's Portfolio</title>
+    <style>
+        /* Global Styles */
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Arial', sans-serif;
+            background: #121212;
+            color: #f0f0f0;
+        }
+
+        /* Header Styles */
+        header {
+            background: linear-gradient(135deg, #00f9f9, #ff0080);
+            color: #fff;
+            padding: 100px 20px;
+            text-align: center;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+        }
+
+        header h1 {
+            font-size: 4em;
+            font-weight: bold;
+            letter-spacing: 3px;
+            text-transform: uppercase;
+        }
+
+        header nav ul {
+            list-style: none;
+            padding: 0;
+            margin-top: 20px;
+        }
+
+        header nav ul li {
+            display: inline-block;
+            margin-right: 30px;
+        }
+
+        header nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 1.2em;
+            font-weight: bold;
+            text-transform: uppercase;
+            transition: color 0.3s;
+        }
+
+        header nav ul li a:hover {
+            color: #ff0080;
+        }
+
+        /* Section Styles */
+        section {
+            padding: 80px 20px;
+        }
+
+        section h2 {
+            text-align: center;
+            font-size: 2.8em;
+            color: #ff0080;
+            margin-bottom: 50px;
+        }
+
+        .container {
+            width: 80%;
+            margin: 0 auto;
+        }
+
+        /* Project Card Styles */
+        .project-card {
+            background-color: #222;
+            border-radius: 10px;
+            padding: 30px;
+            margin: 30px 0;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .project-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+        }
+
+        .project-card h3 {
+            font-size: 2em;
+            color: #00f9f9;
+            margin-bottom: 15px;
+        }
+
+        .project-card p {
+            font-size: 1.1em;
+            color: #aaa;
+            line-height: 1.7;
+        }
+
+        /* Footer Styles */
+        footer {
+            background: #222;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+            margin-top: 40px;
+            font-size: 1.2em;
+        }
+
+        /* Responsive Design */
+        @media screen and (max-width: 768px) {
+            header h1 {
+                font-size: 2.8em;
+            }
+
+            section h2 {
+                font-size: 2.2em;
+            }
+
+            .container {
+                width: 95%;
+            }
+
+            .project-card {
+                padding: 20px;
+            }
+
+            header nav ul li {
+                display: block;
+                margin: 10px 0;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>Sharan Paloju's Portfolio</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#mechanical">Mechanical Projects</a></li>
+                <li><a href="#webdev">Web Development Projects</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- About Me Section -->
+    <section id="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>Hello, I'm Sharan Paloju, a passionate mechanical engineer and web developer with a love for creating innovative solutions. Explore my work in both fields below!</p>
+        </div>
+    </section>
+
+    <!-- Mechanical Projects Section -->
+    <section id="mechanical">
+        <div class="container">
+            <h2>Mechanical Engineering Projects</h2>
+
+            <div class="project-card">
+                <h3>Knuckle Joint Modeling and Analysis</h3>
+                <p>This project involves the detailed modeling and analysis of a knuckle joint, including stress analysis, material selection, and optimization for automotive applications.</p>
+            </div>
+
+            <div class="project-card">
+                <h3>Welding Helmet Design</h3>
+                <p>Designed a welding helmet aimed at reducing harmful effects caused by the welding process, improving safety, comfort, and ergonomics for users.</p>
+            </div>
+
+            <div class="project-card">
+                <h3>Fuel Gas Desulfurization Report</h3>
+                <p>A detailed research report on fuel gas desulfurization processes, exploring their importance in industrial applications and methodologies for achieving optimal results.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Web Development Projects Section -->
+    <section id="webdev">
+        <div class="container">
+            <h2>Web Development Projects</h2>
+
+            <div class="project-card">
+                <h3>Sky Lap</h3>
+                <p>A personal project built using HTML, CSS, and JavaScript to showcase the latest trends in technology and gadgets.</p>
+            </div>
+
+            <div class="project-card">
+                <h3>KTPS Ash Transportation Data</h3>
+                <p>Developed a dynamic webpage for tracking and analyzing ash transportation data for KTPS, integrating PHP and MySQL for real-time insights.</p>
+            </div>
+
+            <div class="project-card">
+                <h3>WoodenPalet E-commerce Website</h3>
+                <p>Built an e-commerce platform using Shopify to showcase and sell handmade wooden products. The site is responsive, ensuring a seamless user experience across devices.</p>
+            </div>
+
+            <div class="project-card">
+                <h3>Arduino Dancing Robot</h3>
+                <p>Created an Arduino-powered dancing robot using sensors and motors, combining embedded systems and mechanical design to produce smooth, coordinated movements.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Sharan Paloju. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
